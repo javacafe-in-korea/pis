@@ -16,3 +16,11 @@ def f(b: Boolean) = if(b) "true" else false
 
 def error = throw new RuntimeException()
 def except = throw new RuntimeException()
+
+class Sample {
+  def run = println("RUN");"RUN"
+}
+
+val r :Sample = if (true) throw new RuntimeException else new Sample
+
+r.run
