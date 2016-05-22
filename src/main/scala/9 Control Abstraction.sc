@@ -23,21 +23,3 @@ withPrintWriter(file) {
 
 def first(x: Int) = (y: Int) => x + y
 def first_full(x: Int) : (Int) => Int = { (y:Int) => x + y }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
